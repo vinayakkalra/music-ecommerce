@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="./css/owl.theme.default.css">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- animate on scroll library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -562,8 +563,8 @@
             <section class="banner-2">
                 <div class="container">
                     <div class="d-flex">
-                        <div class="p-2 mr-auto text-white"><h1>Discover our newest<br>albums & singles.</h1></div>
-                        <div class="p-2 text-danger"><p>VIEW ALL RELEASES</p></div>
+                        <div class="p-2 mr-auto text-white" data-aos="slide-right"><h1>Discover our newest<br>albums & singles.</h1></div>
+                        <div class="p-2 text-danger" data-aos="slide-left"><p>VIEW ALL RELEASES</p></div>
                     </div>
                     <div>
                         <div class="row ban-img">
@@ -786,6 +787,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="./js/owl.carousel.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <script>
 
@@ -825,9 +827,11 @@
             },
             1000:{
                 items:1
-        }
-    }
-})
+            }
+            }
+        })
+
+        AOS.init();
     </script>
 </body>
 </html>
