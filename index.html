@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- css to include style.css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- css to include owl carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -157,10 +160,32 @@
         }
         .banner-3{
             width: 100%;
-            height: 150vh;
+            height: 105vh;
             background-color: rgba(0,0,0,1);
             text-align: center;
             position: relative;
+        }
+        .banner-4{
+            width: 100%;
+            height: 80vh;
+            background-color: rgba(0,0,0,1);
+            position: relative;
+        }
+        .banner-5{
+            width: 100%;
+            height: 85vh;
+            background-color: rgba(0,0,0,1);
+            position: relative;
+        }
+        .banner-6{
+            width: 100%;
+            height: 60vh;
+            background:linear-gradient(to right,rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url(./images/concert.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            position: relative;
+            
         }
         .last-div{
             width: 100%;
@@ -219,9 +244,9 @@
             width: 100%;
             height: auto;
             position: absolute;
-            top: 10%;
+            top: 25%;
             left: 50%;
-            transform: translate(-50%,-10%);
+            transform: translate(-50%,-25%);
         }
         .ban3 h1{
             font-weight: 700;
@@ -235,6 +260,31 @@
             width: 75%;
             position: absolute;
             margin-top: 20em;
+        }
+        .ban4 p{
+            color: cadetblue;
+            margin-top: 10px;
+            padding-top: 25px;
+        }
+        .banner-4 .owl{
+            margin-top: 5rem;
+            padding-top: 5rem;
+        }
+        .ban5 p{
+            color: cadetblue;
+        }
+        .banner-5 .last{
+            margin-top: 5rem;
+            padding-top: 4rem;
+        }
+        .ban6{
+            position: absolute;
+            margin-top: 5rem;
+            padding-top: 5rem;
+        }
+        .lemail{
+            margin-left: 7rem!important;
+            padding-left: 7rem!important;
         }
         footer{
             color: white;
@@ -576,27 +626,60 @@
 
             <section class="banner-4">
                 <div class="container">
-                    <div class="column add-bottom">
-                        <div id="mainwrap">
-                            <div id="nowPlay">
-                                <span id="npAction">Paused...</span><span id="npTitle"></span>
-                            </div>
-                            <div id="audiowrap">
-                                <div id="audio0">
-                                    <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
-                                </div>
-                                <div id="tracks">
-                                    <a id="btnPrev">&larr;</a><a id="btnNext">&rarr;</a>
-                                </div>
-                            </div>
-                            <div id="plwrap">
-                                <ul id="plList"></ul>
-                            </div>
+                    <div class="d-flex ban4">
+                        <div class="p-2 mr-auto text-white"><h1>M-Slide talented<br>members</h1></div>
+                        <div class="p-2"><p>
+                            Dispatch heads into the era of America, Location 12 with both the passion and<br>
+                            vigor of a band in their infancy and the knowledge and power of one together for<br>
+                            twenty years and counting.</p></div>
+                    </div>
+                    <div class="owl">
+                        <div class="owl-carousel owl-theme text-center">
+                            <div class="item text-white"><h3>“We just wanted to say thank you so much to M-Slide<br>Band for creating such a wonderful event."</h3><br><br>
+                                                            <h6 class="text-danger">MARTIN STANLEY</h6>
+                                                            <h6 class="text-info">Spotify Manager</h6></div>
+                            <div class="item text-white"><h3>“M-Slide is kind of band that very well can influence<br>and inspire a generation of musician"</h3><br><br>
+                                                            <h6 class="text-danger">CORY WHITMAN</h6>
+                                                            <h6 class="text-info">Spotify Manager</h6></div>
                         </div>
                     </div>
-                    <div class="column add-bottom center">
-                        <p>Music by <a href="http://www.mythium.net/">Mythium</a></p>
-                        <p>Download: <a href="https://archive.org/download/mythium/mythium_vbr_mp3.zip">zip</a> / <a href="https://archive.org/download/mythium/mythium_archive.torrent">torrent</a></p>
+                </div>
+            </section>
+
+            <section class="banner-5">
+                <div class="container">
+                    <div class="d-flex">
+                        <div class="p-2 mr-auto text-white ban5"><h1>Latest News</h1><br><p>See what’s happenning around the world of music.</p></div>
+                        <div class="p-2 text-danger"><p>VIEW ALL RELEASES</p></div>
+                    </div>
+                    <div class="row last text-white">
+                        <div class="col-sm">
+                          <p class="text-danger">MARCH 29, 2018</p>
+                          <h5>Chemical Bond</h5><br>
+                          <p>Jazz is rage. Jazz flows like water. Jazz never seems to begin or end. Jazz isn’t methodical,…</p>
+                          <p>Read More</p>
+                        </div>
+                        <div class="col-sm">
+                            <p class="text-danger">MARCH 29, 2018</p>
+                            <h5>Beautiful Typography</h5><br>
+                            <p>This is heading The bank manager long ago won the battle for the heart of the Stones…</p>
+                            <p>Read More</p>
+                        </div>
+                        <div class="col-sm">
+                            <p class="text-danger">MARCH 29, 2018</p>
+                            <h5>About</h5><br>
+                            <p>Remember the first time you went to a show and saw your favorite band. You wore their…</p>
+                            <p>Read More</p>
+                        </div>
+                      </div>
+                </div>
+            </section>
+
+            <section class="banner-6">
+                <div class="container">
+                    <div class="d-flex justify-content-between ban6">
+                        <div class="p-2 mr-auto text-white ban5"><h1>Subscribe</h1><p>Sign up for new releases to your inbox every week</p></div>
+                        <div class="p-2 lemail"><input type="text" class="form-control" placeholder="Last name"></div>
                     </div>
                 </div>
             </section>
@@ -699,8 +782,11 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+
     <script>
 
         // Add custom javascript and jquery here
@@ -715,13 +801,33 @@
         });
 
         $('#myModal').modal('handleUpdate');
-        // function toggle(){
-        //     var blur= document.getElementById('blur');
-        //     blur.classList.toggle('active');
-        //     var popup = document.getElementById('popup');
-        //     popup.classList.toggle('active');
-        // };
+        function toggle(){
+            var blur= document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+        };
 
+
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+        }
+    }
+})
     </script>
 </body>
 </html>
