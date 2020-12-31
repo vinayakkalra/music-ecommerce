@@ -1,1 +1,1 @@
-# music-ecommerce
+# An ecommerce template to sell music instruments
